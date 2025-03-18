@@ -1,5 +1,5 @@
 import { Hono } from "hono";
-import notesRoutes from "./routes/Notes"; // Import Notes router
+import notesRoutes from "./routes/NotesRoute"; // Import Notes router
 
 const app = new Hono();
 
